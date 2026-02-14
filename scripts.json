@@ -1,20 +1,5 @@
 {
-    "universal_script": {
-        "loader": "local API = _G.SnowHubAPI\nlocal Tab = API.AddTab('Main', 'home')\nTab.AddButton('Log Session Key', function() print('Key: ' .. _G.script_key) end)\nTab.AddToggle('In-Game Snow', true, function(s) _G.isSnowing = s end)"
-    },
-    "blox_fruits": {
-        "loader": "local API = _G.SnowHubAPI\nlocal Combat = API.AddTab('Combat', 'sword')\nCombat.AddToggle('Auto Farm', false, function(s) print('Farming: ' .. tostring(s)) end)\nCombat.AddButton('Collect Chests', function() print('Collecting...') end)\nlocal Teleport = API.AddTab('Teleport', 'map-pin')\nTeleport.AddButton('Sea 1', function() print('TP Sea 1') end)\nTeleport.AddButton('Sea 2', function() print('TP Sea 2') end)"
-    },
-    "blade_ball": {
-        "loader": "local API = _G.SnowHubAPI\nlocal Main = API.AddTab('Auto', 'zap')\nMain.AddToggle('Auto Parry', false, function(s) print('Parry: ' .. tostring(s)) end)\nMain.AddToggle('Spam Parry', false, function(s) print('Spam: ' .. tostring(s)) end)\nlocal Visuals = API.AddTab('Visuals', 'eye')\nVisuals.AddToggle('Ball ESP', false, function(s) print('ESP: ' .. tostring(s)) end)"
-    },
-    "ps99": {
-        "loader": "local API = _G.SnowHubAPI\nlocal Farm = API.AddTab('Farm', 'coins')\nFarm.AddToggle('Auto Collect', false, function(s) print('Collecting: ' .. tostring(s)) end)\nFarm.AddToggle('Auto Hatch', false, function(s) print('Hatching: ' .. tostring(s)) end)"
-    },
-    "doors": {
-        "loader": "local API = _G.SnowHubAPI\nlocal Exploit = API.AddTab('Exploit', 'ghost')\nExploit.AddButton('Reach Next Door', function() print('Moving...') end)\nExploit.AddToggle('Light Boost', false, function(s) print('Light: ' .. tostring(s)) end)"
-    },
-    "bedwars": {
-        "loader": "local API = _G.SnowHubAPI\nlocal Combat = API.AddTab('Combat', 'crosshair')\nCombat.AddToggle('Killaura', false, function(s) print('Aura: ' .. tostring(s)) end)\nCombat.AddToggle('Auto Clicker', false, function(s) print('Clicker: ' .. tostring(s)) end)"
+    "escape_tsunami": {
+        "loader": "script_key = _G.script_key\nloadstring(game:HttpGet(\"https://api.luarmor.net/files/v4/loaders/b9a0b8e031dc3210c2b792caf505b93c.lua\"))()"
     }
 }
