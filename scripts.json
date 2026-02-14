@@ -1,5 +1,5 @@
 {
     "escape_tsunami": {
-        "loader": "script_key = _G.script_key or script_key\nloadstring(game:HttpGet(\"https://api.luarmor.net/files/v4/loaders/28aa06f77b88afa722ee0fb8dc9908e8.lua\"))()"
+        "loader": "script_key = _G.script_key or \"ePZHrYYEKGrqKgJfPNvFPleqOAUTRIgL\"\nloadstring(game:HttpGet(\"https://api.luarmor.net/files/v4/loaders/fd75cfa5fe7fa8180064c56f92d70393.lua\"))()"
     }
 }
