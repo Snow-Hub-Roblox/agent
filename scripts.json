@@ -1,5 +1,8 @@
 {
     "escape_tsunami": {
-        "loader": "script_key = _G.script_key or \"ePZHrYYEKGrqKgJfPNvFTRIgL\"\nloadstring(game:HttpGet(\"https://api.luarmor.net/files/v4/loaders/fd75cfa5fe7fa8180064c56f92d70393.lua\"))()"
+        "loader": "script_key = _G.script_key or \"ePZHrYYEKGrqKAUTRIgL\"\nloadstring(game:HttpGet(\"https://api.luarmor.net/files/v4/loaders/fd75cfa5fe7fa8180064c56f92d70393.lua\"))()"
+    },
+    "flick": {
+        "loader": "script_key = _G.script_key or \"ePZHrYYEKGrqKgJfUTRIgL\"\nloadstring(game:HttpGet(\"https://api.luarmor.net/files/v4/loaders/bf786f7ea0a620318f9f83c11fa6566b.lua\"))()"
     }
 }
